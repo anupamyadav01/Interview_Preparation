@@ -1,9 +1,13 @@
 import "./App.css";
-import TrafficLight from "./components/TrafficLight/TrafficLight";
+import PasswordStrength from "./components/PasswordStrength/PasswordStrength";
+// import TrafficLight from "./TrafficLight";
+// import TrafficLight from "./components/TrafficLight/TrafficLight";
 const App = () => {
   return (
-    <div>
-      <TrafficLight />
+    <div className="">
+      {/* <TrafficLight /> */}
+      {/* <TrafficLight /> */}
+      <PasswordStrength />
     </div>
   );
 };
